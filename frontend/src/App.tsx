@@ -7,7 +7,7 @@ function App() {
   return (
    <div className='App'>
 
-    <div>Hello Kitty</div>
+    <div className='text-2xl'>Hello Kitty</div>
 
 
    </div>
