@@ -1,16 +1,20 @@
 
 
-
 function App() {
-;
+
 
   return (
-   <div className='App'>
+    
+      <div>
 
-    <div className='text-2xl'>Hello Kitty</div>
+        <div className="text-2xl bg-green-400">Hello world</div>
+    
 
 
-   </div>
+     
+      </div>
+      
+    
   )
 }
 
