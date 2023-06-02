@@ -12,7 +12,7 @@ from decouple import config
 import openai
 
 # Custom Function Import
-# ...
+from functions.openai_requests import convert_audio_to_text
 
 # Initiate App
 app = FastAPI()
