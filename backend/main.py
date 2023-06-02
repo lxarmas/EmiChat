@@ -40,5 +40,9 @@ app.add_middleware(
 
 @app.get("/health")
 async def check_health():
-    print("hello")
-    return {"message": "health"}
+    return {"message": "healthy"}
+
+
+# @app.post("/post-audio/")
+# async def post_audio(file: UploadFile = File(...)):
+#     print("hello")
